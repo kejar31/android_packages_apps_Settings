@@ -58,6 +58,20 @@
         android:fragment="com.android.settings.WirelessSettings"
         android:icon="@drawable/empty_icon" />
 
+    <!-- Superuser -->
+    <header
+        android:id="@+id/superuser"
+        android:fragment="com.android.settings.gummy.superuser.PolicyNativeFragment"
+        android:icon="@drawable/ic_action_permission"
+        android:title="@string/superuser" />
+
+    <!-- About Gummy -->
+    <header
+        android:id="@+id/about"
+        android:icon="@drawable/ic_settings_about"
+        android:fragment="com.android.settings.gummy.About"
+        android:title="@string/about_Gummy" />
+
     <!-- DEVICE -->
     <header android:id="@+id/device_section"
         android:title="@string/header_category_device" />
