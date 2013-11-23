@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Anonymous Statistics -->
+    <!-- About device screen, list item title. Takes the user to the screen about opting in or out o
+f anonymous statistics. -->
+    <string name="anonymous_statistics_title">Anonymous Statistics</string>
+    <string name="anonymous_statistics_summary">Help make this ROM better by opting into anonymous statistics reporting</string>
+    <string name="anonymous_statistics_about_title">About</string>
+    <string name="anonymous_statistics_about">Opting into anonymous statistics will allow non-personal data to be submitted to the
+        developers to track unique installations across devices. The information submitted includes an unique identifier,
+        which does not compromise your privacy or personal data.\n\nFor an example of the data that is submitted, tap on Preview Data.</string>
+    <string name="stats_enable_reporting_title">Enable reporting</string>
+    <string name="stats_preview_data_title">Preview data</string>
+    <string name="stats_preview_data_summary">%s</string>
+    <string name="stats_view_title">View stats</string>
+
+    <!-- Anonymous Statistics - Notification -->
+    <string name="anonymous_notification_desc">Enable or Disable Anonymous Statistics</string>
+
+    <string name="stats_view_url">http://stats.gummyrom.com/view.php</string>
+    <string name="stats_submit_url">http://stats.gummyrom.com/submit.php</string>
+
+    <!-- Anonymous Statistics - Preview -->
+    <string name="preview_target_name_title">Device</string>
+    <string name="preview_model_name_title">Model</string>
+    <string name="preview_android_version_title">Android Version</string>
+    <string name="preview_rom_version_title">ROM Version</string>
+    <string name="preview_carrier_name_title">Carrier Name</string>
+    <string name="preview_carrier_id_title">Carrier ID</string>
+    <string name="preview_country_code_title">Country Code</string>
+    <string name="preview_device_id_title">Device ID</string>
+
+</resources>
